@@ -79,9 +79,7 @@ function ProductInventory() {
         <div className="container mx-auto px-6 py-8">
           <div className="flex justify-between items-center">
             <div>
-              <h1 className="text-3xl font-bold text-gray-900">
-                Techno Market
-              </h1>
+            <Title>Techno Market</Title>
               <p className="text-gray-600 mt-2">
                 Sistema de gestión de inventario
               </p>
