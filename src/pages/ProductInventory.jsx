@@ -24,8 +24,8 @@ function ProductInventory() {
 
   // Filtrar productos basado en el término de búsqueda
   const filteredProducts = productos.filter(product =>
-    product.producto.toLowerCase().includes(searchTerm.toLowerCase()) ||
-    product.categoria.toLowerCase().includes(searchTerm.toLowerCase())
+    product?.producto?.toLowerCase().includes(searchTerm.toLowerCase()) ||
+    product?.categoria?.toLowerCase().includes(searchTerm.toLowerCase())
   );
 
   const showNotification = (message, type = 'success') => {
