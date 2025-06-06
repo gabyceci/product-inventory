@@ -1,4 +1,5 @@
-# 🛒 Tecnotienda - Sistema de Inventario
+# 🛒 Techno Market
+- Sistema de Inventario
 
 Sistema de gestión de inventario desarrollado con React para la tienda "Tecnotienda". Permite administrar productos tecnológicos con operaciones CRUD completas.
 
